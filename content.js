@@ -7,11 +7,13 @@ const dark = () => {
 }
 
 const deleteCourses = (ids) => {
-  document.querySelectorAll('li.type_system ul li.type_course').forEach((li)=>{
-    if(!ids.includes(Number(li.getElementsByTagName('a')[0].getAttribute('href').split('=').pop()))){
-      li.remove()
-    }
-  })
+  if(ids.length){
+    document.querySelectorAll('li.type_system ul li.type_course').forEach((li)=>{
+      if(!ids.includes(Number(li.getElementsByTagName('a')[0].getAttribute('href').split('=').pop()))){
+        li.remove()
+      }
+    })
+  }
 }
 
 const deleteAdminMenu = () => {
