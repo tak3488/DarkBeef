@@ -1,7 +1,7 @@
 # DarkBeef
 
-BEEF(https://beef.center.kobe-u.ac.jp/)をダークモードに対応させるのが主な機能ですが、他にも色々機能は入ってます。
-インストールの仕方は https://naokixtechnology.net/javascript/2851 これとか読んでください。
+[BEEF](https://beef.center.kobe-u.ac.jp/)をダークモードに対応させるのが主な機能ですが、他にも色々機能は入ってます。
+インストールの仕方は[これ](https://naokixtechnology.net/javascript/2851)とか読んでください。
 
 ## 機能一覧
 
