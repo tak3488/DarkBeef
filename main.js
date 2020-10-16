@@ -4,3 +4,4 @@ const main = () => {
   deleteCourseCategories() //コースカテゴリを非表示
   deleteCourses(ids) //選択したidのコースのみをナビゲーションに表示
 }
+window.addEventListener('load', main);
