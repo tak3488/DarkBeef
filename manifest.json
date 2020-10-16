@@ -12,7 +12,7 @@
   "content_scripts": [
     {
         "matches": ["https://beef.center.kobe-u.ac.jp/*"],
-        "js": [ "darkmode.js","content.js" ]
+        "js": [ "darkmode.js","content.js","main.js" ]
     }
   ]
 }
