@@ -24,11 +24,4 @@ const deleteCourseCategories = () => {
   document.getElementById('frontpage-category-names')?.remove()
 }
 
-const main = () => {
-  deleteCourses(ids)
-  deleteAdminMenu()
-  deleteCourseCategories()
-  dark()
-}
-
 window.addEventListener('load', main);
